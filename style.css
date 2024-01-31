@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #canvasvd {
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .container {
+    flex-direction: column;
+    width: 100vw;
+    height: 100vhd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

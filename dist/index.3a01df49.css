@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#canvasvd {
+  z-index: -1;
+  position: absolute;
+}
+
+.container {
+  height: 100vhd;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

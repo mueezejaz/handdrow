@@ -1,0 +1,1 @@
+{"scripts":{"test":"echo \"Error: no test specified\" && exit 1","parcelr":"parcel ./index.html"},"dependencies":{"@mediapipe/tasks-vision":"^0.10.0","parcel":"^2.11.0"}}
