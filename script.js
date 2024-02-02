@@ -176,7 +176,7 @@ import { HandLandmarker, FilesetResolver } from "@mediapipe/tasks-vision";
     console.log(1);
     contextdr.fillStyle = "red";
     contextdr.beginPath();
-    contextdr.arc(drawPoints.x, drawPoints.y, 10, 0, 2 * Math.PI);
+    contextdr.arc(drawPoints.x, drawPoints.y, 5, 0, 2 * Math.PI);
     contextdr.fill();
     contextdr.closePath();
     // Draw a line connecting the current and previous points
@@ -185,7 +185,7 @@ import { HandLandmarker, FilesetResolver } from "@mediapipe/tasks-vision";
       contextdr.moveTo(drawPoints.prevX, drawPoints.prevY);
       contextdr.lineTo(drawPoints.x, drawPoints.y);
       contextdr.strokeStyle = "red";
-      contextdr.lineWidth = 20; // Adjust line width as needed
+      contextdr.lineWidth = 10; // Adjust line width as needed
       contextdr.stroke();
       contextdr.closePath();
     }
